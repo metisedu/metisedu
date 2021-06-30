@@ -1,0 +1,188 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0~/reg_mb_id
+
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q!
+:q
+:wq!
+:wq
+:reg_mb_id
+:w
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+?/reg_mb_id
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+
+# 파일 마크:
+'0  2  21  /etc/my.cnf
+'1  59  0  /etc/my.cnf
+'2  1  0  /etc/mysql/conf.d/my5.6.cnf
+'3  62  0  /etc/my.cnf
+'4  12  0  ~/data/dbconfig.php
+'5  1  0  /var/log/message
+'6  1  0  /var/log/xferlog
+'7  1  0  /var/log/syslog
+'8  1  0  /var/log/syslog-20210406
+'9  1  0  /var/log/secure
+
+# 점프목록 (새것이 먼저):
+-'  2  21  /etc/my.cnf
+-'  1  0  /etc/my.cnf
+-'  59  0  /etc/my.cnf
+-'  1  0  /etc/mysql/conf.d/my5.6.cnf
+-'  62  0  /etc/my.cnf
+-'  12  0  ~/data/dbconfig.php
+-'  1  0  ~/data/dbconfig.php
+-'  1  0  /var/log/message
+-'  1  0  /var/log/xferlog
+-'  1  0  /var/log/syslog
+-'  1  0  /var/log/syslog-20210406
+-'  1  0  /var/log/secure
+-'  43  0  ~/bbs/login.php
+-'  1  0  ~/bbs/login.php
+-'  271  8  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  0  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  6  27  ~/data/dbconfig.php
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  271  8  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  0  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  12  0  ~/data/dbconfig.php
+-'  1  0  ~/data/dbconfig.php
+-'  1  0  /var/log/message
+-'  1  0  /var/log/xferlog
+-'  1  0  /var/log/syslog
+-'  1  0  /var/log/syslog-20210406
+-'  1  0  /var/log/secure
+-'  43  0  ~/bbs/login.php
+-'  1  0  ~/bbs/login.php
+-'  271  8  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  0  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  6  27  ~/data/dbconfig.php
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  271  8  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  0  /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  58  0  /etc/my.cnf
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> /etc/my.cnf
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> /etc/mysql/conf.d/my5.6.cnf
+	"	1	0
+
+> ~/data/dbconfig.php
+	"	12	0
+	^	6	28
+	.	6	27
+	+	4	29
+	+	5	37
+	+	6	27
+
+> /var/log/message
+	"	1	0
+
+> /var/log/xferlog
+	"	1	0
+
+> /var/log/secure
+	"	1	0
+
+> ~/bbs/login.php
+	"	43	0
+
+> /home/metis.tcpschool.com/docs2/skin/member/basic/register_form.skin.php
+	"	271	8
+
+> ~/test.php
+	"	1	16
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/index.php
+	"	14	0
+
+> /etc/host.conf
+	"	1	0

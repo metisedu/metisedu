@@ -1,0 +1,1328 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="theme-color" content="#1C2B36" />
+	<title>Bird - Responsive admin dashboard template by Followtechnique</title>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="144x144">
+	<link href="img/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="114x114">
+	<link href="img/favicon.ico" rel="apple-touch-icon" type="image/png" sizes="72x72">
+	<link href="img/favicon.ico" rel="apple-touch-icon" type="image/png">
+	<link href="img/favicon.ico" rel="icon" type="image/png">
+	<link href="img/favicon.ico" rel="shortcut icon">
+    <!-- /Favicon -->
+
+    <!-- Global stylesheets -->
+	<link type="text/css" rel="stylesheet" href="lib/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="lib/css/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="lib/css/main.css">
+<!-- /Global stylesheets -->
+</head>
+<body id="top">
+
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status">
+		<div class="loader"></div>
+	</div>
+</div>
+<!-- /Preloader -->
+
+<div id="body-wrapper" class="body-container">
+
+	<!-- Header begins -->
+	<header class="main-nav clearfix">
+
+		<!-- Searchbar -->
+		<div class="top-search-bar">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 offset-md-3">
+						<div class="search-input-addon">
+							<span class="addon-icon"><i class="icon-search4"></i></span>
+							<input type="text" class="form-control top-search-input" placeholder="Enter your keyword...">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Searchbar -->
+
+		<!-- Branding -->
+		<div class="navbar-left float-left">
+			<div class="clearfix">
+				<ul class="left-branding float-left">
+					<li class="visible-handheld"><span class="left-toggle-switch"><i class="icon-menu7"></i></span></li>
+					<li>
+						<a href="index.html"><div class="logo"></div></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /Branding -->
+
+		<!-- Search & Languages -->
+		<div class="navbar float-left">
+			<div class="clearfix">
+				<ul class="float-left top-icons hidden-xs-down">
+					<li><a href="#" class="btn-top-search m-l-15"><i class="icon-search4"></i></a></li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-flag7"></i></a>
+						<ul class="dropdown-menu languages animated fadeIn">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Українська</a>
+							<a class="dropdown-item" href="#">España</a>
+                        </ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /Search & Languages -->
+
+		<!-- Navbar icons -->
+		<div class="navbar float-right navbar-toggleable-sm">
+			<div class="clearfix">
+				<ul class="float-right top-icons">
+					<li><a href="#" class="btn-top-search hidden-sm-up"><i class="icon-search4"></i></a></li>
+
+					<!-- Quick apps dropdown -->
+					<li class="dropdown apps-dropdown hidden-xs-down">
+						<a href="#" class="dropdown-toggle" id="apps_dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="icon-grid2"></i></a>
+						<div class="dropdown-menu animated fadeIn" aria-labelledby="apps_dropdown">
+
+							<ul class="shortcuts clearfix">
+							    <li>
+							        <a href="emails.html">
+							            <img src="img/icons/emails.png"/>
+							            <span class="apps-noty">4</span>
+							            <span class="apps-label">Email</span>
+							        </a>
+							    </li>
+							    <li>
+							        <a href="messages.html">
+							            <img src="img/icons/messages.png"/>
+							            <span class="apps-noty">8</span>
+							            <span class="apps-label">Messages</span>
+							        </a>
+							    </li>
+							    <li>
+							        <a href="people.html">
+							            <img src="img/icons/people.png"/>
+							            <span class="apps-label">People</span>
+							        </a>
+							    </li>
+							    <li>
+							        <a href="invoice_list.html">
+							            <img src="img/icons/invoices.png"/>
+							            <span class="apps-label">Invoices</span>
+							        </a>
+							    </li>
+							    <li>
+							        <a href="projects_list.html">
+							            <img src="img/icons/projects.png"/>
+							            <span class="apps-label">Projects</span>
+							        </a>
+							    </li>
+							    <li>
+							        <a href="ecom_cart.html">
+							            <img src="img/icons/cart.png"/>
+							            <span class="apps-noty">3</span>
+							            <span class="apps-label">Cart</span>
+							        </a>
+							    </li>
+							</ul>
+
+						</div>
+					</li>
+					<!-- /Quick apps dropdown -->
+
+					<!-- Rightbar -->
+					<li><a class="toggle_rightbar" href="#" onclick="open_rightbar()"><span class="bubble">6</span><i class="icon-list-unordered"></i></a></li>
+					<!-- /Rightbar -->
+
+					<!-- User dropdown -->
+					<li class="dropdown user-dropdown">
+						<a href="#" class="btn-user dropdown-toggle hidden-xs-down" data-toggle="dropdown"><img src="http://via.placeholder.com/80x80" class="rounded-circle user" alt=""/></a>
+						<a class="user-name hidden-xs-down" data-toggle="dropdown">Jane Elliott<small>Administrator</small></a>
+						<a href="#" class="dropdown-toggle hidden-sm-up" data-toggle="dropdown"><i class="icon-more"></i></a>
+						<div class="dropdown-menu animated fadeIn no-p">
+							<div class="user-icon text-center p-t-15">
+							    <img src="http://via.placeholder.com/120x120" class="rounded-circle" alt=""/>
+							    <h5 class="text-center p-b-15">Hi! Jane Elliott</h5>
+							</div>
+							<ul class="user-links">
+							    <li><a href="user_profile_social.html"><i class="icon-profile"></i> My profile</a></li>
+							    <li><a href="#"><i class="icon-envelop5"></i> Inbox <span class="badge badge-danger float-right">4</span></a></li>
+							    <li><a href="user_profile_social.html"><i class="icon-cogs"></i> Profile settings</a></li>
+							    <li><a href="login_unlock.html"><i class="icon-lock5"></i> Lock screen</a></li>
+							</ul>
+							<div class="text-center p-10"><a href="login_simple.html" class="btn btn-block"><i class="icon-exit3 i-16 position-left"></i> Logout</a></div>
+						</div>
+					</li>
+					<!-- /User dropdown -->
+
+				</ul>
+			</div>
+		</div>
+		<!-- /Navbar icons -->
+
+	</header>
+	<!-- /Header ends -->
+
+	<!-- Sidebar -->
+	<aside class="menu">
+		<div class="left-aside-container">
+
+			<!-- User profile -->
+			<div class="user-profile"></div>
+			<!-- /User profile -->
+
+
+			<!-- Main menu -->
+			<div class="menu-container"></div>
+			<!-- /Main menu -->
+
+		</div>
+	</aside>
+	<!-- /Sidebar -->
+
+	<!-- Page container begins -->
+	<section class="main-container">
+		<h1 style="display:none">Empty Heading</h1>
+
+
+			<!-- Page header -->
+			<div class="header">
+				<div class="header-content">
+					<div class="page-title">
+						<i class="icon-grid4 position-left"></i> Nav pills
+					</div>
+					<ul class="breadcrumb">
+						<li><a href="index.html"></a></li>
+						<li>UI elements</li>
+						<li class="nav-item">Nav pills</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /Page header -->
+
+			<div class="container-fluid page-content">
+				<div class="row">
+
+					<!-- Basic pills -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Basic pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item"><a href="#basic-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#basic-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#basic-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#basic-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="basic-pill1">
+										Basic pills example using <code>.nav-pills</code> class. Also requires base <code>.nav</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="basic-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="basic-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="basic-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Basic pills -->
+
+					<!-- Justified pills -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Justified pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills nav-justified" role="tablist">
+									<li class="nav-item"><a href="#justified-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#justified-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#justified-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#justified-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="justified-pill1">
+										Easily make pills equal widths of their parent with <code>.nav-justified</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="justified-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="justified-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="justified-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- Justified pills -->
+
+				</div>
+
+				<div class="row">
+
+					<!-- Bordered pills -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Bordered pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills nav-pills-bordered" role="tablist">
+									<li class="nav-item"><a href="#bordered-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#bordered-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#bordered-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#bordered-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="bordered-pill1">
+										Add border and background color to the pills with <code>.nav-pills-bordered</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="bordered-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="bordered-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="bordered-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Bordered pills -->
+
+					<!-- Pills toolbar -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Pills toolbar</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills nav-pills-toolbar" role="tablist">
+									<li class="nav-item"><a href="#toolbar-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#toolbar-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#toolbar-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#toolbar-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="toolbar-pill1">
+										Display pills as a toolbar with <code>.nav-pills-toolbar</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="toolbar-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="toolbar-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="toolbar-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Pills toolbar -->
+
+				</div>
+
+				<div class="row">
+
+					<!-- Centered position -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Centered position</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills justify-content-center" role="tablist">
+									<li class="nav-item"><a href="#centered-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#centered-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#centered-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#centered-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="centered-pill1">
+										To use centered pills, add <code>.text-center</code> to the <code>.nav-pills</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="centered-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="centered-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="centered-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Centered position -->
+
+					<!-- Right position -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Right position</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills justify-content-end" role="tablist">
+									<li class="nav-item"><a href="#right-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#right-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#right-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#right-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="right-pill1">
+										To use right aligned pills, add <code>.text-right</code> to the <code>.nav-pills</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="right-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="right-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="right-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Right position -->
+
+				</div>
+
+				<div class="row">
+
+					<!-- Stacked pills -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Stacked pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills flex-column" role="tablist">
+									<li class="nav-item"><a href="#stacked-icons-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#stacked-icons-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu">
+											<a href="#stacked-icons-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#stacked-icons-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="stacked-icons-pill1">
+										Pills are also vertically stackable. Just add <code>.nav-stacked</code> to the <code>.nav-pills</code> class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="stacked-icons-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="stacked-icons-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="stacked-icons-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Stacked pills -->
+
+					<!-- Stacked with labels -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Stacked with labels</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills flex-column" role="tablist">
+									<li class="nav-item"><a href="#stacked-labels-pill1" class="nav-link active" data-toggle="tab" role="tab"><i class="icon-menu7 position-left"></i> Active</a></li>
+									<li class="nav-item"><a href="#stacked-labels-pill2" class="nav-link" data-toggle="tab" role="tab"><i class="icon-make-group position-left"></i> <span class="badge badge-danger float-right">Bug</span> Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><span class="badge badge-pill badge-primary float-right">95</span> More</a>
+										<ul class="dropdown-menu">
+											<a href="#stacked-labels-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#stacked-labels-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="stacked-labels-pill1">
+										Examples of stackable pills with icons, labels, badges and dropdown menu.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="stacked-labels-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="stacked-labels-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="stacked-labels-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Stacked with labels -->
+
+				</div>
+
+				<div class="row">
+
+					<!-- Pills with left icons -->
+					<div class="col-md-4 col-sm-4">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Pills with left icons</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item"><a href="#left-icon-pill1" class="nav-link active" data-toggle="tab" role="tab"><i class="icon-menu7 position-left"></i> Active</a></li>
+									<li class="nav-item"><a href="#left-icon-pill2" class="nav-link" data-toggle="tab" role="tab"><i class="icon-grid6 position-left"></i> Inactive</a></li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="left-icon-pill1">
+										Add icon markup <code>before</code> pill nav text to display icons on the left side.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="left-icon-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Pills with left icons -->
+
+					<!-- Pills with right icons -->
+					<div class="col-md-4 col-sm-4">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Pills with right icons</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item"><a href="#right-icon-pill1" class="nav-link active" data-toggle="tab" role="tab">Active <i class="icon-menu7 position-right"></i></a></li>
+									<li class="nav-item"><a href="#right-icon-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive <i class="icon-grid6 position-right"></i></a></li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="right-icon-pill1">
+										Add icon markup <code>after</code> pill nav text to display icons on the right side.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="right-icon-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Pills with right icons -->
+
+					<!-- Pills with icons only -->
+					<div class="col-md-4 col-sm-4">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Pills with icons only</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item">
+										<a href="#icon-only-pill1" class="nav-link active" data-toggle="tab" role="tab">
+											<i class="icon-menu7"></i>
+										</a>
+									</li>
+
+									<li class="nav-item">
+										<a href="#icon-only-pill2" class="nav-link" data-toggle="tab" role="tab">
+											<i class="icon-grid6"></i>
+										</a>
+									</li>
+
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+											<i class="icon-equalizer2"></i>
+										</a>
+
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#icon-only-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#icon-only-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="icon-only-pill1">
+										If pill nav doesn't have a text, add icon markup to display icon only.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="icon-only-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="icon-only-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="icon-only-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Pills with icons only -->
+
+				</div>
+
+				<div class="row">
+
+					<!-- Pills with labels -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Pills with labels</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item"><a href="#label-pill1" class="nav-link active" data-toggle="tab" role="tab"><span class="badge bg-pink position-left">Bug</span> Active</a></li>
+									<li class="nav-item"><a href="#label-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive <span class="badge badge-success position-right">Fixed</span></a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><span class="badge badge-warning">Priority</span></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#label-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#label-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="label-pill1">
+										Display <code>labels</code> on the left/right sides and in empty pill nav. Empty labels are hidden.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="label-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="label-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="label-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Pills with labels -->
+
+					<!-- Pills with badges -->
+					<div class="col-md-6 col-sm-6">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Pills with badges</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item"><a href="#badges-pill1" class="nav-link active" data-toggle="tab" role="tab"><span class="badge badge-pill bg-pink position-left">12</span> Active</a></li>
+									<li class="nav-item"><a href="#badges-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive <span class="badge badge-pill badge-info position-right">56</span></a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><span class="badge badge-pill badge-danger">14</span></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<a href="#badges-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#badges-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="badges-pill1">
+										Display <code>badges</code> on the left/right sides and in empty pill nav. Empty badges are hidden.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="badges-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="badges-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="badges-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Pills with badges -->
+
+				</div>
+
+				<div class="row">
+
+					<!-- Large pills -->
+					<div class="col-md-4 col-sm-4">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Large pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-lg nav-pills" role="tablist">
+									<li class="nav-item"><a href="#lg-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#lg-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+											<a href="#lg-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#lg-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="lg-pill1">
+										Default pills size doesn't require any additional sizing classes.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="lg-pill3">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="lg-pill4">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="lg-pill5">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Large pills -->
+
+					<!-- Small pills -->
+					<div class="col-md-4 col-sm-4">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Small pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-sm nav-pills" role="tablist">
+									<li class="nav-item"><a href="#sm-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#sm-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+											<a href="#sm-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#sm-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="sm-pill1">
+										To use small size, add <code>.nav-pills-sm</code> class to the <code>.nav-pills</code> base class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="sm-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="sm-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="sm-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Small pills -->
+
+					<!-- Mini pills -->
+					<div class="col-md-4 col-sm-4">
+						<div class="card card-inverse">
+							<div class="card-header">
+								<div class="card-title">Mini pills</div>
+							</div>
+							<div class="card-block">
+
+								<ul class="nav nav-xs nav-pills" role="tablist">
+									<li class="nav-item"><a href="#xs-pill1" class="nav-link active" data-toggle="tab" role="tab">Active</a></li>
+									<li class="nav-item"><a href="#xs-pill2" class="nav-link" data-toggle="tab" role="tab">Inactive</a></li>
+									<li class="dropdown nav-item">
+										<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">More</a>
+										<ul class="dropdown-menu dropdown-menu-xs dropdown-menu-right">
+											<a href="#xs-pill3" class="dropdown-item" data-toggle="tab" role="tab">Dropdown pill</a>
+											<a href="#xs-pill4" class="dropdown-item" data-toggle="tab" role="tab">Another pill</a>
+										</ul>
+									</li>
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane active" role="tabpanel" id="xs-pill1">
+										To use mini size, add <code>.nav-pills-xs</code> class to the <code>.nav-pills</code> base class.
+										<p class="m-t-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="xs-pill2">
+										Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="xs-pill3">
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+									</div>
+
+									<div class="tab-pane" role="tabpanel" id="xs-pill4">
+										Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Mini pills -->
+
+				</div>
+
+			</div>
+
+			<!-- Footer -->
+			<footer class="footer-container">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="float-left">
+								©  2017 Bird&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Web app kit by <a href="http://followtechnique.com" target="_blank">FollowTechnique</a>.							</div>
+	                        <div class="float-right">
+								<div class="badge badge-danger">Version: 2.0.0</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- /Footer -->
+
+		</section>
+		<!-- /Page Container ends -->
+
+		<!-- ScrolltoTop -->
+		<a id="scrollTop" href="#top"><i class="icon-arrow-up12"></i></a>
+		<!-- /ScrolltoTop -->
+
+	</div>
+
+<!-- Rightbar -->
+<div id="right_sidebar" class="right_bar">
+
+	<div class="rightbar-wrapper">
+
+		<div class="rightbar-header">
+			<img src="http://via.placeholder.com/80x80" class="rounded-circle user" alt=""/>
+			<div class="username">Jane Elliott</div>
+			<div class="close-rightbar"><a onclick="close_rightbar()"><i class="icon-cross2"></i></a></div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+
+		<div class="searchbar">
+			<div class="form-group">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search..." autocomplete="off">
+					<span class="input-group-addon"><i class="icon-search4"></i></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="card friend-list">
+			<div class="card-header">
+				<div class="card-title">Friends</div>
+				<ul class="icons-list">
+					<li><a data-action="reload"></a></li>
+					<li><a data-action="collapse" data-toggle="collapse" href="#friends"></a></li>
+				</ul>
+			</div>
+			<div class="card-block collapse show" id="friends">
+
+				<div id="friends">
+					<div class="friend">
+						<img src="http://via.placeholder.com/80x80" />
+						<div class="detail">
+							<span>Jane Elliott</span>
+							<cite>You just got LITT...</cite>
+						</div>
+						<div class="status available"></div>
+						<div class="time">1:10 AM</div>
+						<div class="badge badge-pill badge-danger">4</div>
+					</div>
+					<div class="friend">
+						<img src="http://via.placeholder.com/80x80" />
+						<div class="detail">
+							<span>Florence Douglas</span>
+							<cite>Wrong. You take the gun...</cite>
+						</div>
+						<div class="status available"></div>
+						<div class="time">9:14 PM</div>
+						<div class="badge badge-pill badge-danger">23</div>
+					</div>
+					<div class="friend">
+						<img src="http://via.placeholder.com/80x80" />
+						<div class="detail">
+							<span>Jacqueline Howell</span>
+							<cite>I was thinking that we...</cite>
+						</div>
+						<div class="status busy"></div>
+						<div class="time">Yesterday</div>
+					</div>
+					<div class="friend">
+						<img src="http://via.placeholder.com/80x80" />
+						<div class="detail">
+							<span>Eugine Turner</span>
+							<cite>Mike, I know everything</cite>
+						</div>
+						<div class="status away"></div>
+						<div class="time">Yesterday</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="card notifications">
+			<div class="card-header">
+				<div class="card-title">Notifications</div>
+				<ul class="icons-list">
+					<li><a data-action="collapse" data-toggle="collapse" href="#notifications"></a></li>
+				</ul>
+			</div>
+			<div class="card-block collapse show" id="notifications">
+				<div class="media-container">
+					<ul class="clearfix">
+						<li class="clearfix">
+							<a href="#" class="media-thumb bg-info"><i class="icon-cart2"></i>
+							</a><a href="#" class="media-title"><div>You have new order</div><span class="media-time">Just now</span></a>
+						</li>
+						<li class="clearfix">
+							<a href="#" class="media-thumb bg-indigo"><i class="icon-stats-growth"></i>
+							</a><a href="#" class="media-title"><div>Sales report generated</div><span class="media-time">20 minutes ago</span></a>
+						</li>
+						<li class="clearfix">
+							<a href="#" class="media-thumb bg-success"><i class="icon-checkmark"></i>
+							</a><a href="#" class="media-title"><div>Task completed</div><span class="media-time">yesterday at 2:23 pm</span></a>
+						</li>
+						<li class="clearfix">
+							<a href="#" class="media-thumb bg-danger"><i class="icon-server"></i>
+							</a><a href="#" class="media-title"><div>Server load (80%)</div><span class="media-time">Currently</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="card activities">
+			<div class="card-header">
+				<div class="card-title">Activities</div>
+				<ul class="icons-list">
+					<li><a data-action="collapse" data-toggle="collapse" href="#activities"></a></li>
+				</ul>
+			</div>
+			<div class="card-block collapse show" id="activities">
+
+				<ol class="activity-feed">
+					<li class="feed-item" data-content="&#xeb35">
+						<section>
+							<input type="checkbox" id="expand_1" name="expand_1" />
+							<label for="expand_1">
+								<cite>2 minutes ago</cite>
+								<span><b>Jane Elliott</b> added 2 new friends</span>
+							</label>
+							<main class="content">
+								<b>Jane Elliott</b> added:<br />
+								<img src="http://via.placeholder.com/80x80" alt="image" class="rounded-circle img-20 m-t-10 m-r-10"/>
+								<img src="http://via.placeholder.com/80x80" alt="image" class="rounded-circle img-20 m-t-10"/>
+							</main>
+						</section>
+					</li>
+					<li class="feed-item" data-content="&#xe914">
+						<section>
+							<input type="checkbox" id="expand_2" name="expand_2" />
+							<label for="expand_2">
+								<cite>Yesterday at 12:15 pm</cite>
+								<span><b>Florence Douglas</b> posted on your timeline.</span>
+							</label>
+							<main class="content">
+								Duis iaculis commodo condimentum. Donec quis felis libero. Nunc feugiat nisi ut ullamcorper congue.
+							</main>
+						</section>
+					</li>
+					<li class="feed-item" data-content="&#xeb35">
+						<section>
+							<input type="checkbox" id="expand_3" name="expand_3" />
+							<label for="expand_3">
+								<cite>2 Days ago</cite>
+								<span>You have a new friend request</span>
+							</label>
+							<main class="content">
+								<b>Jane Elliott</b> wants to be your friend<br />
+								<img src="http://via.placeholder.com/80x80" alt="image" class="rounded-circle img-20 m-t-10 m-r-10"/>
+							</main>
+						</section>
+					</li>
+					<li class="feed-item" data-content="&#xeab6">
+						<section>
+							<label for="expand_4">
+								<cite>2 days ago</cite>
+								<span><b>Florence Douglas</b> invited you for <a href="#">New event</a>.</span>
+							</label>
+						</section>
+					</li>
+					<li class="feed-item" data-content="&#xea49">
+						<section>
+							<input type="checkbox" id="expand_5" name="expand_5" />
+							<label for="expand_5">
+								<cite>3 days ago</cite>
+								<span>You have 4 documents pending</span>
+							</label>
+							<main class="content">
+								<i class="icon-file-presentation x4 position-left m-b-10"></i>
+								<i class="icon-file-picture x4 position-left m-b-10"></i>
+								<i class="icon-file-locked x4 position-left m-b-10"></i>
+								<i class="icon-file-xml x4 position-left m-b-10"></i>
+							</main>
+						</section>
+					</li>
+				</ol>
+
+			</div>
+		</div>
+
+		<div class="card settings">
+			<div class="card-header">
+				<div class="card-title">Settings</div>
+				<ul class="icons-list">
+					<li><a data-action="collapse" data-toggle="collapse" href="#settings"></a></li>
+				</ul>
+			</div>
+			<div class="card-block collapse show" id="settings">
+				<section>
+					<div class="checkbox checkbox-right checkbox-switchery switchery-xs">
+						<label class="display-block">
+							<input type="checkbox" class="switchery">
+							Notifications
+						</label>
+					</div>
+				</section>
+
+				<section>
+					<div class="checkbox checkbox-right checkbox-switchery switchery-xs">
+						<label class="display-block">
+							<input type="checkbox" class="switchery">
+							Notification Sounds
+						</label>
+					</div>
+				</section>
+
+				<section>
+					<div class="checkbox checkbox-right checkbox-switchery switchery-xs">
+						<label class="display-block">
+							<input type="checkbox" class="switchery" checked="checked">
+							Show Online
+						</label>
+					</div>
+				</section>
+
+				<section>
+					<div class="checkbox checkbox-right">
+						<label>
+							<input type="checkbox" class="styled" checked="checked">
+							Activities
+						</label>
+					</div>
+				</section>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="conversation">
+
+		<div class="conversation-header">
+			<i class="icon-arrow-left32" id="back"></i>
+			<img src="http://via.placeholder.com/80x80" />
+			<div class="friend-details">
+				<span>Jane Elliott</span>
+				<cite>Online</cite>
+			</div>
+			<div class="actions">
+				<div class="dropdown">
+					<i class="icon-attachment dropdown-toggle" data-toggle="dropdown"></i>
+					<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+						<a href="#" class="dropdown-item"><i class="icon-file-pdf position-left"></i>Document</a>
+						<a href="#" class="dropdown-item"><i class="icon-camera position-left"></i>Camera</a>
+						<a href="#" class="dropdown-item"><i class="icon-images2 position-left"></i>Gallery</a>
+						<a href="#" class="dropdown-item"><i class="icon-music position-left"></i>Audio</a>
+						<a href="#" class="dropdown-item"><i class="icon-location3 position-left"></i>Location</a>
+						<a href="#" class="dropdown-item"><i class="icon-user position-left"></i>Contact</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class='chat-wrapper'>
+			<div class='chat-message chat-message-recipient'>
+				<img class='chat-image' src='http://via.placeholder.com/80x80' />
+				<div class='chat-message-wrapper'>
+					<div class='chat-message-content'>
+						<p>Sushi tonight?</p>
+					</div>
+					<div class='chat-details'>
+						<span>10:14 am</span>
+					</div>
+				</div>
+			</div>
+
+			<div class='chat-message chat-message-sender'>
+				<img class='chat-image' src='http://via.placeholder.com/80x80' />
+				<div class='chat-message-wrapper'>
+					<div class='chat-message-content'>
+						<p>Pizza?</p>
+						<p>We had sushi last time!</p>
+						<p>For me one Vegetariana! Plus some chili oil on it!</p>
+					</div>
+					<div class='chat-details'>
+						<i class="icon-check2 text-info"></i>
+						<span>10:15 am</span>
+					</div>
+				</div>
+			</div>
+
+			<div class='chat-message chat-message-recipient'>
+				<img class='chat-image' src='http://via.placeholder.com/80x80' />
+				<div class='chat-message-wrapper'>
+					<div class='chat-message-content'>
+						<p>Done. Delivery takes 5 minutes!</p>
+					</div>
+					<div class='chat-details'>
+						<span>10:16 am</span>
+					</div>
+				</div>
+			</div>
+
+			<div class='chat-message chat-message-sender'>
+				<img class='chat-image' src='http://via.placeholder.com/80x80' />
+				<div class='chat-message-wrapper'>
+					<div class='chat-message-content'>
+						<p>Awesome! See you later! : )</p>
+					</div>
+					<div class='chat-details'>
+						<i class="icon-check2 text-slate"></i>
+						<span>Just now</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="conversation-compose">
+			<input class="input-msg" name="input" placeholder="Type a message..." autocomplete="off">
+			<div class="photo">
+	          	<i class="icon-camera"></i>
+	        </div>
+			<button class="send">
+				<div class="circle">
+				  	<i class="icon-paperplane"></i>
+				</div>
+			</button>
+		</div>
+
+	</div>
+
+</div>
+
+<!-- /Rightbar -->
+
+<!-- Layout settings -->
+<div class="layout"></div>
+<span class="is_hidden" id="jquery_vars">
+	<span class="is_hidden switch-active"></span>
+	<span class="is_hidden switch-inactive"></span>
+	<span class="is_hidden chart-bg"></span>
+	<span class="is_hidden chart-gridlines-color"></span>
+	<span class="is_hidden chart-legends-text-color"></span>
+	<span class="is_hidden chart-grid-text-color"></span>
+	<span class="is_hidden chart-data-color-option1"></span>
+	<span class="is_hidden chart-data-color-option2"></span>
+	<span class="is_hidden chart-data-color-option3"></span>
+	<span class="is_hidden chart-data-color-option4"></span>
+	<span class="is_hidden chart-data-color-option5"></span>
+	<span class="is_hidden chart-data-color-option6"></span>
+	<span class="is_hidden chart-data-color-option7"></span>
+	<span class="is_hidden chart-data-color-option8"></span>
+</span>
+<!-- /Layout settings -->
+
+<!-- Global scripts -->
+<script src="lib/js/core/jquery/jquery.js"></script>
+<script src="lib/js/core/jquery/jquery.ui.js"></script>
+<script src="lib/js/core/tether.min.js"></script>
+<script src="lib/js/core/bootstrap/bootstrap.js"></script>
+<script src="lib/js/core/bootstrap/jasny_bootstrap.min.js"></script>
+<script src="lib/js/core/navigation/nav.accordion.js"></script>
+<script src="lib/js/core/hammer/hammerjs.js"></script>
+<script src="lib/js/core/hammer/jquery.hammer.js"></script>
+<script src="lib/js/core/slimscroll/jquery.slimscroll.js"></script>
+<script src="lib/js/extensions/smart-resize.js"></script>
+<script src="lib/js/extensions/blockui.min.js"></script>
+<script src="lib/js/forms/uniform.min.js"></script>
+<script src="lib/js/forms/switchery.js"></script>
+<script src="lib/js/forms/select2.min.js"></script>
+<script src="lib/js/plugins/ekko-lightbox.min.js"></script>
+<!-- /Global scripts -->
+<!-- Core scripts -->
+<script src="lib/js/core/app/layouts.js"></script>
+<script src="lib/js/core/app/core.js"></script>
+<!-- /Core scripts -->
+
+</body>
+</html>

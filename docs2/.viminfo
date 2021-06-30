@@ -1,0 +1,103 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:wq
+:q
+:w
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+
+# 파일 마크:
+'0  5  37  /home/metis.tcpschool.com/www/data/dbconfig.php
+'1  1  0  ~/data/dbconfig.php
+'2  1  16  ~/test.php
+'3  14  0  ~/index.php
+'4  1  0  /etc/host.conf
+'5  6  27  ~/data/dbconfig.php
+
+# 점프목록 (새것이 먼저):
+-'  5  37  /home/metis.tcpschool.com/www/data/dbconfig.php
+-'  1  0  /home/metis.tcpschool.com/www/data/dbconfig.php
+-'  1  0  ~/data/dbconfig.php
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  6  27  ~/data/dbconfig.php
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  0  ~/data/dbconfig.php
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  6  27  ~/data/dbconfig.php
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  1  16  ~/test.php
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+-'  14  0  ~/index.php
+-'  1  0  ~/index.php
+-'  1  0  /etc/host.conf
+-'  1  0  /etc/host.conf
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> /home/metis.tcpschool.com/www/data/dbconfig.php
+	"	5	37
+	^	5	38
+	.	5	37
+	+	5	37
+
+> ~/data/dbconfig.php
+	"	1	0
+	^	6	28
+	.	6	27
+	+	4	29
+	+	5	37
+	+	6	27
+
+> ~/test.php
+	"	1	16
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/index.php
+	"	14	0
+
+> /etc/host.conf
+	"	1	0

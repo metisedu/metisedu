@@ -1,0 +1,307 @@
+.sf-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+ul.sf-menu li.normal_drop_down ul {
+	margin: 0;
+    padding: 1px 0 12px 1px;
+    list-style: none;
+    width: 187px;
+    background: #fff;
+    border: 4px solid #0066b3;
+	/*
+    margin: 0;
+    padding: 25px 0 20px 15px;
+    list-style: none;
+	width:215px; 231px
+	height:475px; 437px;
+	background-image:url('/img/menu_bg_pc.png');
+	background-size:cover;
+	*/
+}
+.sf-menu li.normal_drop_down {
+    position: relative;
+}
+ul.sf-menu li ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+.sf-menu>li {
+    float: left;
+}
+.sf-menu li.sfHover>ul, .sf-menu li:hover>ul {
+    display: block;
+}
+.sf-menu a {
+    display: block;
+    position: relative;
+}
+.sf-menu ul ul {
+    top: 0;
+    left: 100%}
+.sf-menu {
+    margin-bottom: 0;
+    /*text-transform: uppercase;*/
+    font-size: 10px;
+    font-weight: 600;
+	margin-top:0px;
+}
+.sf-menu ul {
+    min-width: 12em;
+    *width: 12em;
+}
+.sf-menu a {
+    padding: 0.5em 1.8em;
+    text-decoration: none;
+    zoom: 1;
+    color: #8b8b8b;
+}
+.sf-menu a#sign_in {
+    background-color: #252525;
+}
+.sf-menu li {
+    background: ;
+    white-space: nowrap;
+    *white-space: normal;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+
+.sf-menu li.mypage {
+	float:right;
+	width:220px;
+	/*background: url(/img/top_mypage.png) no-repeat;*/
+	background-size:36px 36px;
+	background-repeat:no-repeat;
+	background-position:right 3px;
+}
+
+.sf-menu li.mypage a{
+    color: #787878;
+    font-size: 1.3em;
+	display: inline-block;
+	margin-top:3px;
+	padding: 0.5em 16px;
+	font-weight: 500;
+}
+.sf-menu li.mypage a.first:after {
+    position: absolute;
+    margin-left: 15px;
+	content: '|';
+}
+.sf-menu li.mypage a:hover {
+	color: #787878;
+    font-size: 1.3em;
+}
+
+ul.sf-menu li a {
+    color: #636362;
+	font-size:1.5em;
+	font-weight:700;
+}
+ul.sf-menu li a:hover {
+	color:#edad58;
+	font-weight:900;
+}
+.sf-menu ul li {
+	padding: .4em 0 .3em;
+	
+	width:138px;
+	box-sizing:border-box;
+	margin-left:18px;
+
+}
+
+.sf-menu ul li a {
+
+	width:100%;
+	padding-left:1em;
+	padding-top:1em;
+	font-size:1.2em;
+	color:#8b8b8b;
+	font-weight:500;
+	border-top:1px solid #dcdcdc;
+
+}
+.sf-menu ul li:first-child a{
+	border-top:0;
+}
+
+.sf-menu ul li:not(:first-child){
+
+}
+
+.sf-menu ul li a:hover {
+    xbackground: #0066b3;
+    xcolor: #111;
+    outline: 0;
+}
+.sf-menu ul ul li {
+    background: #111;
+}
+.sf-menu li.sfHover, .sf-menu li:hover {
+    xbackground: #111;
+    -webkit-transition: none;
+    transition: none;
+    xcolor: #fff;
+}
+.sf-arrows .sf-with-ul {
+    padding-right: 0.5em;
+    *padding-right: 1em;
+}
+/*
+.sf-arrows .sf-with-ul:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    margin-top: -3px;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-top-color: #fff;
+    border-top-color: rgba(255, 255, 255, .5);
+}
+*/
+.sf-arrows>.sfHover>.sf-with-ul:after, .sf-arrows>li:hover>.sf-with-ul:after, .sf-arrows>li>.sf-with-ul:focus:after {
+    border-top-color: #0066b3;
+}
+.sf-arrows ul .sf-with-ul:after {
+    margin-top: -5px;
+    margin-right: -3px;
+    border-color: transparent;
+    border-left-color: #0066b3;
+    border-left-color: rgba(255, 255, 255, .5);
+}
+.sf-arrows ul .sfHover>.sf-with-ul:after, .sf-arrows ul li:hover>.sf-with-ul:after, .sf-arrows ul li>.sf-with-ul:focus:after {
+    border-left-color: #fff;
+}
+#mobnav-btn:before {
+    display: none;
+    font-family: fontello;
+    content: "\e874";
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.mobnav-subarrow {
+    display: none;
+}
+.sf-menu .sf-mega {
+    position: absolute;
+    display: none;
+    top: 45px;
+    left: 0;
+    z-index: 9999;
+    background: #111;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%}
+.sf-menu .sf-mega ul.mega_submenu {
+    display: block;
+    float: none;
+    width: 100%;
+    position: inherit;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sf-menu .sf-mega ul.mega_submenu li {
+    border-bottom: 1px dotted #333;
+    text-transform: none;
+    font-size: 14px;
+}
+.sf-menu .sf-mega ul.mega_submenu li a {
+    color: #b7b7b7;
+}
+.sf-menu .sf-mega ul.mega_submenu li a:hover {
+    color: #000;
+}
+.sf-menu .sf-mega ul.mega_submenu li:last-child {
+    border-bottom: none;
+}
+ul.mega_submenu li i {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+.sf-mega h5 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+ul.mega_submenu.icons li {
+    position: relative;
+}
+ul.mega_submenu.icons li i {
+    position: absolute;
+    right: 25px;
+}
+@media (max-width:767px) {
+    #mobnav-btn {
+    position: absolute;
+    top: -44px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#mobnav-btn:before {
+    display: block;
+}
+.mobnav-subarrow {
+    display: block;
+    height: 47px;
+    width: 100%;
+    background-position: top left!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.sf-menu .sf-mega {
+    padding: 10px;
+}
+.sf-arrows .sf-with-ul:after {
+    top: 50%;
+    right: 20px;
+}
+.sf-menu {
+    width: 100%!important;
+    display: none;
+}
+.sf-menu.xactive {
+    display: block!important;
+}
+.sf-menu li {
+    float: none!important;
+    display: block!important;
+    width: 100%!important;
+}
+.sf-menu li a {
+    float: none!important;
+}
+.sf-mega, .sf-menu ul {
+    position: static!important;
+    display: none!important;
+}
+.xpopdrop .sf-mega, .xpopdrop ul {
+    display: block!important;
+}
+.mega_drop_down {
+    position: relative;
+}
+}
